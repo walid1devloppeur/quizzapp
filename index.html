@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css" /> 
+    <style>
+     .reset { 
+      margin-top: 40px;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 20px;
+}
+.reset:hover {
+  background-color: #de7e2c;
+  color: white;
+  transition: all 0.3s;
+  border: 0px;
+} 
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <h1 class="display-4 text-center py-5">Quizz App</h1>
+      </div>
+    </header>
+    <main>
+       <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" id="display">
+            <button id="main-click">Start Quizz</button> 
+           <div id="back-up" class="hide">
+            <h1 class="display-5 my-5 " style="color:#de7e2c;font-weight: bold;">Your Score is : <span class="display-5 " style="color:white; font-weight:bold ;" id="scr"> %</span>   </h1>  
+            <button id="reset" class=" reset ">Reset</button>
+           </div>
+          </div>
+        </div>
+      </div>  
+
+     
+                
+        
+ <div class="container">
+    
+  <div class="test my-5 hide" id="first"  >
+    <h3 class="text-center py-3" id="question">Who Killed Toji Fushiguro</h3> 
+   <div class="d-flex justify-content-center my-5">
+    <div class="suggestions ">
+      <div class="qu" name="qu">
+        <input type="radio" name="one" value="wrong" />
+        <span class="sug">Ryumen Sukuna</span>  
+        <span class="text-danger ms-3 fs-2" id="check"></span>
+      </div>
+      <div class="qu" name="qu">
+        <input type="radio" name="one" value="wrong"/>
+        <span class="sug">Itadori Yuji</span> 
+        <span class=" " id="check"></span>
+      </div> 
+      <div class="qu" name="qu">
+        <input type="radio"  name="one" value="right"/>
+        <span class="sug">Gojo Saturo</span> 
+        <span class="text-success ms-3 fs-2" id="check"></span>
+
+      </div>
+      <div class="qu" name="qu">
+        <input type="radio"name="one" value="wrong" />
+        <span class="sug">Maki Zenin</span> 
+        <span class="text-success ms-3 fs-2" id="check"></span>
+      </div> 
+    </div>
+   </div> 
+   <div class="d-flex justify-content-center py-4">
+    <div class="btns">
+      <button class="btn btn-lg sim" id="submit1">Submit</button>
+      <button class="btn btn-lg sim" id="next1">Next</button>
+     </div>
+   </div>
+    </div>
+
+
+    <div class="second my-5 hide" id="second" >
+      <h3 class="text-center py-3" id="question2">Who Was The Fifth Hokage</h3> 
+     <div class="d-flex justify-content-center my-5">
+      <div class="suggestions2 ">
+        <div class="qu" name="qu">
+          <input type="radio" name="two" value="right" />
+          <span class="sug">Tsunade</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio" name="two" value="wrong"/>
+          <span class="sug">Minato</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio"  name="two" value="wrong"/>
+          <span class="sug">Kakashi</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio"name="two" value="wrong" />
+          <span class="sug2">Sarutobi</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div> 
+      </div>
+     </div> 
+     <div class="d-flex justify-content-center py-4">
+      <div class="btns2">
+        <button class="btn btn-lg sim2" id="submit2">Submit</button>
+        <button class="btn btn-lg sim2" id="next2">Next</button>
+       </div>
+     </div>
+      </div> 
+
+    <div class="third my-5 hide" id="third" >
+      <h3 class="text-center py-3" id="question3">What was the reason of Klaus Mikaelson's Death</h3> 
+     <div class="d-flex justify-content-center my-5">
+      <div class="suggestions3 ">
+        <div class="qu" name="qu">
+          <input type="radio" name="three" value="wrong" />
+          <span class="sug">Murder</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio" name="three" value="wrong"/>
+          <span class="sug">Vampires Fight</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio"  name="three" value="wrong"/>
+          <span class="sug">Poisonned</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio"name="three" value="right" />
+          <span class="sug3">Suicide</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div> 
+      </div>
+     </div> 
+     <div class="d-flex justify-content-center py-4">
+      <div class="btns3">
+        <button class="btn btn-lg sim3" id="submit3">Submit</button>
+        <button class="btn btn-lg sim3" id="next3">Next</button>
+       </div>
+     </div>
+      </div> 
+
+
+    <div class="finale my-5 hide" id="finale" >
+      <h3 class="text-center py-3" id="question4">What's the Best gym exercice to build strength ?</h3> 
+     <div class="d-flex justify-content-center my-5">
+      <div class="suggestions4 ">
+        <div class="qu" name="qu">
+          <input type="radio" name="finale" value="wrong" />
+          <span class="sug">Hamstring Curls</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio" name="finale" value="wrong"/>
+          <span class="sug">Triceps pushDowns</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio"  name="finale" value="right"/>
+          <span class="sug">Deadlifts</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div>
+        <div class="qu" name="qu">
+          <input type="radio"name="finale" value="wrong" />
+          <span class="sug3">BenchPress</span> 
+          <span class="text-success ms-3 fs-2" id="check"></span>
+        </div> 
+      </div>
+     </div> 
+     <div class="d-flex justify-content-center py-4">
+      <div class="btns4">
+        <button class="btn btn-lg sim4" id="submit4">Submit</button>
+        <button class="btn btn-lg sim4" id="next4">See Result</button>
+       </div>
+     </div>
+      </div> 
+
+      <div class=""></div>
+
+
+
+
+ </div> 
+             
+           
+
+    <script src="./main.js"></script>
+  </body>
+</html>

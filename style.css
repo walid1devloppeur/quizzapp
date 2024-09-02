@@ -1,0 +1,217 @@
+body {
+  background-color: #23293d;
+  color: white;
+}
+#tag {
+  text-indent: 15px;
+}
+.top {
+  background-color: #2b3e56;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+#main-click {
+  margin-top: 250px;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 20px;
+}
+#main-click:hover {
+  background-color: #de7e2c;
+  color: white;
+  transition: all 0.3s;
+  border: 0px;
+}
+
+.con {
+  display: flex;
+  border: 1px solid;
+  width: fit-content;
+  padding: 10px 30px 10px 0px;
+}
+.don {
+  display: flex;
+  border: 1px solid;
+  width: fit-content;
+  padding: 10px 30px 10px 0px;
+}
+
+.qu {
+  border: 1px white solid;
+  width: fit-content;
+  font-size: 15pt;
+  border-radius: 20px;
+  display: flex;
+  padding: 10px 25px;
+}
+input[type="radio"] {
+  margin-right: 15px;
+  width: 18px;
+}
+
+.submit {
+  text-align: center;
+}
+.suggestions {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 60px 120px;
+  margin-bottom: 35px;
+  position: relative;
+  top: 27px;
+}
+.btns {
+  margin-top: 20px;
+}
+.btns > * {
+  background-color: white;
+  border: 2px solid black;
+}
+.btns > *:hover {
+  background-color: #de7e2c;
+}
+
+.hide {
+  display: none;
+  transition: 0.5s;
+}
+.sim:nth-child(1) {
+  margin-right: 15px;
+}
+.sim:nth-child(2) {
+  margin-left: 15px;
+}
+span {
+  font-size: 18pt;
+}
+.test {
+  background-color: #2b3e56;
+  width: 72vw;
+  height: 62vh;
+  margin: 0px auto;
+  border-radius: 30px;
+}
+
+.second {
+  background-color: #2b3e56;
+  width: 72vw;
+  height: 62vh;
+  margin: 0px auto;
+  border-radius: 30px;
+}
+.suggestions2 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 60px 120px;
+  margin-bottom: 35px;
+  position: relative;
+  top: 27px;
+}
+.btns2 {
+  margin-top: 20px;
+}
+.btns2 > * {
+  background-color: white;
+  border: 2px solid black;
+}
+.btns2 > *:hover {
+  background-color: #de7e2c;
+}
+.sim2:nth-child(1) {
+  margin-right: 15px;
+}
+.sim2:nth-child(2) {
+  margin-left: 15px;
+}
+
+.third {
+  background-color: #2b3e56;
+  width: 72vw;
+  height: 62vh;
+  margin: 0px auto;
+  border-radius: 30px;
+}
+.suggestions3 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 60px 120px;
+  margin-bottom: 35px;
+  position: relative;
+  top: 27px;
+}
+.btns3 {
+  margin-top: 20px;
+}
+.btns3 > * {
+  background-color: white;
+  border: 2px solid black;
+}
+.btns3 > *:hover {
+  background-color: #de7e2c;
+}
+.sim3:nth-child(1) {
+  margin-right: 15px;
+}
+.sim3:nth-child(2) {
+  margin-left: 15px;
+}
+
+.finale {
+  background-color: #2b3e56;
+  width: 72vw;
+  height: 62vh;
+  margin: 0px auto;
+  border-radius: 30px;
+}
+.suggestions4 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 60px 120px;
+  margin-bottom: 35px;
+  position: relative;
+  top: 27px;
+}
+.btns4 {
+  margin-top: 20px;
+}
+.btns4 > * {
+  background-color: white;
+  border: 2px solid black;
+}
+.btns4 > *:hover {
+  background-color: #de7e2c;
+}
+.sim4:nth-child(1) {
+  margin-right: 15px;
+}
+.sim4:nth-child(2) {
+  margin-left: 15px;
+}
+
+.win {
+  border: 4px solid green;
+  color: green;
+}
+.lose {
+  border: 4px solid red;
+  color: red;
+}
+
+.qu:hover {
+  transition: 0.2s ease-in;
+  background-color: #23293d;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.qu {
+  cursor: pointer;
+}
